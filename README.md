@@ -1,3 +1,12 @@
+<p align="center">
+🚀 DoU
+
+Diversity over Uniformity: Rethinking Representation in Generated Image Detection
+
+CVPR 2026
+
+</p>
+
 🧠 Overview
 
 DoU revisits representation learning for generated image detection and proposes a diversity-driven framework that moves beyond conventional uniform feature constraints.
