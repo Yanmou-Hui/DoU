@@ -1,11 +1,11 @@
 <p align="center">
 🚀 DoU
-
-Diversity over Uniformity: Rethinking Representation in Generated Image Detection
-
-CVPR 2026
-
 </p>
+
+<p align="center">
+"Diversity over Uniformity: Rethinking Representation in Generated Image Detection" CVPR 2026
+</p>
+
 
 🧠 Overview
 
