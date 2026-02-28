@@ -1,5 +1,5 @@
 <p align="center">
-🚀 DoU
+🚀 ** DoU **
 </p>
 
 <p align="center">
@@ -38,10 +38,15 @@ The official PyTorch implementation is currently being cleaned and organized for
 
 We will provide:
 	•	📦 Complete training pipeline
+	
 	•	🧩 CIB & AFCL implementations
+	
 	•	⚙️ Configuration files
+	
 	•	📈 Evaluation scripts
+	
 	•	🏆 Pretrained checkpoints
+	
 	•	📘 Reproducibility instructions
 
 📌 Code and pretrained models will be released here soon.
