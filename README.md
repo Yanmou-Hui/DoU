@@ -3,8 +3,19 @@
 ## <p align="center">Diversity over Uniformity: Rethinking Representation in Generated Image Detection</p>
 
 <p align="center">
-Official PyTorch implementation for generated image detection.
+  Official PyTorch implementation for generated image detection.
 </p>
+
+<p align="center">
+  <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/He_Diversity_over_Uniformity_Rethinking_Representation_in_Generated_Image_Detection_CVPR_2026_paper.pdf">
+    <img src="https://img.shields.io/badge/Paper-CVPR%202026-blue?logo=adobeacrobatreader&logoColor=white" alt="Paper">
+  </a>
+  <a href="https://huggingface.co/Yanmou/DoU">
+    <img src="https://img.shields.io/badge/🤗-Hugging%20Face-yellow" alt="Hugging Face">
+  </a>
+</p>
+
+
 
 ---
 
@@ -21,18 +32,6 @@ DoU revisits representation learning for generated image detection. Instead of e
 | 🧩 CIB | Cue Information Bottleneck | A VAE-style variational bottleneck applied to multi-stage visual cues. |
 | 🔄 AFCL | Adaptive Feature Correlation Learning | An inter-cue decorrelation mechanism that encourages diverse visual cues. |
 | 🖼️ Multi-Stage CLIP | Multi-Stage CLIP Aggregation | Hierarchical CLIP visual features for robust generated image detection. |
-
----
-
-## 📢 Release Status
-
-| Item | Status | Notes |
-| --- | --- | --- |
-| 🧪 Testing / evaluation code | ✅ Released | Use `test.py` for benchmark evaluation. |
-| 🏆 Pretrained weights | ✅ Released | Use released checkpoints for direct testing. |
-| 🏋️ Training code | 🚧 Coming next | The next update will provide the training pipeline. |
-| ⚙️ Training configs | 🚧 Coming next | Full training configuration will be released with training code. |
-| 📘 Reproducibility details | 🚧 Coming next | More instructions will be added in the next update. |
 
 ---
 
@@ -128,31 +127,19 @@ python test.py \
   --skip-missing
 ```
 
-#### Show all command-line options
+---
 
-```bash
-python test.py --help
+
+## 📚 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{he2026diversity,
+  title={Diversity over uniformity: Rethinking representation in generated image detection},
+  author={He, Qinghui and Zhang, Haifeng and Qin, Qiao and Liu, Bo and Bi, Xiuli and Xiao, Bin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={40407--40417},
+  year={2026}
+}
 ```
-
----
-
-## 🏋️ Training
-
-The training code is the next part to be released.
-
-Planned next update:
-
-| Item | Description |
-| --- | --- |
-| Training pipeline | End-to-end training entry point. |
-| Dataset preparation | CSV generation for training and validation. |
-| Configurations | Hyperparameters and training settings. |
-| Reproducibility guide | Instructions for reproducing reported results. |
-
----
-
-## 📌 Notes
-
-- Released testing code and pretrained weights can already be used for evaluation.
-- Training code and training data preparation instructions will be added in the next update.
-- Please check the command-line options before running on a new environment.
